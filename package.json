@@ -9,7 +9,7 @@
     "typescript": "^3.5.3"
   },
   "scripts": {
-    "start": "ts-node --transpile-only app.ts"
+    "start": "ts-node --transpile-only src/app.ts"
   },
   "devDependencies": {
     "@types/express": "^4.17.0"
