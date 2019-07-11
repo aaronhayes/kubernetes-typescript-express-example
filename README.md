@@ -7,3 +7,6 @@ Dead simple Kubernetes Example using Typescript and Express.
 3. Expose kubernetes deployment `kubectl expose deployment k8-test --type="LoadBalancer"`
 4. Test Connection `curl localhost:3000`
 5. (optional) Scale deployment `kubectl scale --replicas=5 deployment/k8-test`
+
+
+To cleanup and delete all your pods: `kubectl delete deployment/k8-test`
