@@ -14,3 +14,10 @@ Dead simple Kubernetes Example using Typescript and Express.
 
 To cleanup and delete all your pods: `kubectl delete deployment k8-test`
 To cleanup and delete your services: `kubectl delete service k8-test-service`
+
+
+## Tilt Hop Re-loading
+
+A basic example has been setup using [Tilt](https://tilt.dev/).. Really simple to try:
+1. `tilt up`
+2. `edit src/app.ts` and see the results live!
